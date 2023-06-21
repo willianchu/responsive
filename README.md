@@ -1,2 +1,4 @@
 # responsive
-React, Next, Sass and Typescript
+Figma, React, Next, Sass and Typescript
+
+
