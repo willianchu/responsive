@@ -1,4 +1,5 @@
 import Image from 'next/image'
+
 import './header.scss'
 
 export function Header() {
@@ -11,8 +12,8 @@ export function Header() {
       <Image
         src="/vercel.svg"
         alt="Vercel Logo"
-        width={100}
-        height={24}
+        width={325}
+        height={310}
         priority
       />
     </div>
