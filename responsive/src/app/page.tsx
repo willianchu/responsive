@@ -1,20 +1,9 @@
-import Image from 'next/image'
+import { Header } from "./components/header/header";
 
 export default function Home() {
   return (
     <main>
-      <div className="header">
-        <Image
-          src="/vercel.svg"
-          alt="Vercel Logo"
-          width={100}
-          height={24}
-          priority
-        />
-      <div>
-        <h1> Greetings </h1>
-        <h2> Description </h2>
-      </div>
+      <Header/>
       <div className="experience">
         <h3> Experience </h3>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -42,7 +31,6 @@ export default function Home() {
           <button> Call me! </button>
         </div>
 
-      </div>
       </div>
     </main>
   )
