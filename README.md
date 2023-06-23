@@ -1,5 +1,6 @@
 # responsive
-Figma, React, Next, Sass and Typescript
+Figma design to mobile first responsive design
+- React, Next, Sass and Typescript
 
 * npx create-next-app@latest
 
@@ -18,9 +19,7 @@ into project folder
 
 * replace favicon.ico
 
-## Creating the Header
 
-.header
 
 
 
