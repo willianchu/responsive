@@ -1,5 +1,6 @@
 :root {
   --text-primary: white;
+  --text-secondary: #B3B3B3;
   --bg-primary: #2c2c2c;
 }
 
@@ -18,6 +19,4 @@ body {
 
 body {
   background-color: var(--bg-primary);
-  color: var(--text-primary);
-  font-family: 'Roboto', sans-serif;
 }
