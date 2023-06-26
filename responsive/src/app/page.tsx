@@ -13,7 +13,7 @@ export default function Home() {
           <div className="social">
 
           </div>
-          <button> Call me! </button>
+          <button className="btn-primary"> Call me! 🤙 </button>
         </div>
 
       
