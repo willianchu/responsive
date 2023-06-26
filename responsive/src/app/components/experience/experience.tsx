@@ -1,4 +1,5 @@
 import { SectionTitle } from "../sectionTitle/section-title"
+import "./experience.scss"
 
 export function Experience() {
   return(
