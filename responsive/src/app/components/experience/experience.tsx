@@ -1,3 +1,6 @@
+import { JavascriptIcon } from "../icons/javascript-icon"
+import { ReactIcon } from "../icons/react-icon"
+import { TypescriptIcon } from "../icons/typescript-icon"
 import { SectionTitle } from "../sectionTitle/section-title"
 import "./experience.scss"
 
@@ -7,7 +10,11 @@ export function Experience() {
         <SectionTitle text="Experience" />
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
         <div className="experience-time">
-          <p> 2019 - 2020 </p>
+          <div>
+            <ReactIcon />
+            <JavascriptIcon />
+            <TypescriptIcon />
+          </div>
         </div>
     </div>	
   )
