@@ -11,9 +11,24 @@ export function Experience() {
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
         <div className="experience-time">
           <div>
-            <ReactIcon />
-            <JavascriptIcon />
-            <TypescriptIcon />
+            <div className="experience-language">
+              <ReactIcon />
+            </div>
+            <div className="experience-unit">
+              <div className="experience-measure"></div>
+            </div>
+            <div className="experience-language">
+            {/* <JavascriptIcon /> */}
+            </div>
+            <div className="experience-unit">
+              <div className="experience-measure"></div>
+            </div>
+            <div className="experience-language">
+            {/* <TypescriptIcon /> */}
+            </div>
+            <div className="experience-unit">
+              <div className="experience-measure"></div>
+            </div>
           </div>
         </div>
     </div>	
