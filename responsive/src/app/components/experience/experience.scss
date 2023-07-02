@@ -27,16 +27,34 @@
       filter: grayscale(100%);
     }
 
-  }
-  .experience-unit {
-    width: 300px;
-    height: 30px;
-    border-radius: 24px;
-    border: 1px solid var(--text-secondary);
+    .experience-unit {
+      width: 300px;
+      height: 30px;
+      border-radius: 24px;
+      border: 1px solid var(--text-secondary);
+      
+      .experience-measure {
+        border-radius: 24px;
+        height: 30px;
+
+        &-1 {
+          width: 33%;
+        }
+        &-2 {
+          width: 66%;
+        }
+        &-3 {
+          width: 100%;
+        }
+      }
+    }
   }
   .experience-time {
-    38
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
   }
   
   

@@ -15,19 +15,19 @@ export function Experience() {
               <ReactIcon />
             </div>
             <div className="experience-unit">
-              <div className="experience-measure"></div>
+              <div className="experience-measure-1"></div>
             </div>
             <div className="experience-language">
             {/* <JavascriptIcon /> */}
             </div>
             <div className="experience-unit">
-              <div className="experience-measure"></div>
+              <div className="experience-measure-2"></div>
             </div>
             <div className="experience-language">
             {/* <TypescriptIcon /> */}
             </div>
             <div className="experience-unit">
-              <div className="experience-measure"></div>
+              <div className="experience-measure-3"></div>
             </div>
           </div>
         </div>
