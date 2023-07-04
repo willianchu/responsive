@@ -13,21 +13,27 @@ export function Experience() {
           <div>
             <div className="experience-language">
               <ReactIcon />
-            </div>
-            <div className="experience-unit">
-              <div className="experience-measure-1"></div>
-            </div>
-            <div className="experience-language">
-            {/* <JavascriptIcon /> */}
-            </div>
-            <div className="experience-unit">
-              <div className="experience-measure-2"></div>
+              <div className="experience-unit">
+                <div className="experience-measure measure-1">
+                  <span>x years</span>
+                </div>
+              </div>
             </div>
             <div className="experience-language">
-            {/* <TypescriptIcon /> */}
+              <JavascriptIcon />
+              <div className="experience-unit">
+                <div className="experience-measure measure-2">
+                <span>x years</span>
+                </div>
+              </div>
             </div>
-            <div className="experience-unit">
-              <div className="experience-measure-3"></div>
+            <div className="experience-language">
+              <TypescriptIcon />
+              <div className="experience-unit">
+                <div className="experience-measure measure-3">
+                <span>x years</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
